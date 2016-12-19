@@ -1,0 +1,37 @@
+#explicacion{
+    background-color: white;
+    color: black;
+    font-family: Helvetica;
+    padding: 50px 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#barra{
+    color: white;
+    background-color: darkgrey;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Helvetica;
+}
+#titulo{
+    text-align: center;
+    margin-left: 2%;
+}
+
+#boton{
+    background-color: transparent;
+    padding: 15px 25px;
+    font-size: 14px;
+    color: black;
+    border: 2px solid black
+
+}
+#boton:hover{
+    background-color: darkgrey;
+    font-family: helvetica;
+    color: white;
+    padding: 15px 25px;
+    text-aling: center;
+
+}

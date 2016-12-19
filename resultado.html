@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="resultado.css" type="text/css">
+<head>
+    <meta charset="UTF-8">
+    <title>Colisiones Elasticas</title>
+</head>
+
+<body>
+
+<div id="barra">
+    <h3 id= "titulo" style="font-family: Helvetica">Colisiones Elasticas</h3>
+</div>
+
+
+
+<div id="reset" >
+    <center>
+    <br>
+       Velocidad Inicial (en Y):
+    <input id="vi1" type="number" value="vel1">
+    <select name="unidades">
+        <option value="ms">m/s</option>
+        <option value="kmh">km/h</option>
+    </select>
+    </br><br>
+    Masa (proporcional al radio):
+    <input id="m1" type="number" value="masa" onchange="this.form.submit()"> 
+    <select name="unidades">
+        <option value="g">gramos</option>
+        <option value="kg">kilogramos</option>
+    </select>
+    </br><br>
+    Coef Restitucion
+    <input id="mu" type="number" value="mu"> 
+        <select name="unidades">
+            <option value="g">valor adimencional bobo</option>
+            <option value="g">valor adimencional bobo</option>
+            <option value="g">valor adimencional bobo</option>
+            <option value="g">valor adimencional bobo</option>
+        </select>
+    </br><br>
+    Nueva velocidad final:
+    <input id="v2" type="number" value="0" "> 
+    
+    </br><br>
+
+        <center>
+</div>
+<center>
+<br>
+<script src="/Users/martindionisi/Downloads/trabajoLab-master/demo.js"> </script>
+<center>
+</body>
+</html>
